@@ -520,7 +520,7 @@ function main() {
     var poly = [
     {x: -0.5, y:  0.6, z: 1.5, c: new Color(255,   0,   0, 255)}, // Red - Top-Left
     {x:  0.6, y:  0.5, z: 1.5, c: new Color(  0, 255,   0, 255)}, // Green - Top-Right
-    {x:  0.5, y: -0.6, z: 1.5, c: new Color(  0,   0,   0, 255)}, // Black - Bottom-Right
+    {x:  0.5, y: -0.55, z: 1.5, c: new Color(  0,   0,   0, 255)}, // Black - Bottom-Right
     {x: -0.4, y: -0.7, z: 1.5, c: new Color(  0,   0, 255, 255)}  // Blue - Bottom-Left
 ];
     
