@@ -520,8 +520,8 @@ function main() {
     var poly = [
     {x:-5, y:5,  z:10, c:new Color(255,0,0,255)},   // red - top-left
     {x:5,  y:4,  z:10, c:new Color(0,255,0,255)},   // green - slightly lowered
-    {x:4,  y:-1, z:10, c:new Color(0,0,0,255)},     // black - bottom-right
-    {x:-4, y:-6, z:10, c:new Color(0,0,255,255)}    // blue - bottom-left
+    {x:4,  y:0, z:10, c:new Color(0,0,0,255)},     // black - bottom-right
+    {x:-4, y:-7, z:10, c:new Color(0,0,255,255)}    // blue - bottom-left
 ];
     
     // Define and render a rectangle in 2D with colors and coords at corners
