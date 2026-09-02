@@ -518,10 +518,10 @@ function main() {
     var testAt = Vector.subtract(new Vector(0,0,10),testEye);
     var view = {eye:testEye, at:testAt, up:new Vector(0,1,0)};
     var poly = [
-    {x:-5, y:5,  z:10, c:new Color(255,0,0,255)},   // red - top-left
-    {x:5,  y:4,  z:10, c:new Color(0,255,0,255)},   // green - slightly lowered
-    {x:4,  y:0, z:10, c:new Color(0,0,0,255)},     // black - bottom-right
-    {x:-4, y:-7, z:10, c:new Color(0,0,255,255)}    // blue - bottom-left
+    {x: -0.5, y:  0.6, z: 1.5, c: new Color(255,   0,   0, 255)}, // Red - Top-Left
+    {x:  0.6, y:  0.5, z: 1.5, c: new Color(  0, 255,   0, 255)}, // Green - Top-Right
+    {x:  0.5, y: -0.4, z: 1.5, c: new Color(  0,   0,   0, 255)}, // Black - Bottom-Right
+    {x: -0.4, y: -0.7, z: 1.5, c: new Color(  0,   0, 255, 255)}  // Blue - Bottom-Left
 ];
     
     // Define and render a rectangle in 2D with colors and coords at corners
